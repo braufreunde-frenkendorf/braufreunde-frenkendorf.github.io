@@ -57,7 +57,7 @@
               <li class="scroll-to-section"><a href="#about">Mission</a></li>
               <li class="scroll-to-section"><a href="#services">Mitmachen</a></li>
               <li class="scroll-to-section">
-                <div class="border-first-button"><a href="mailto:braufreunde-frenkendorf.ch">Melde Dich!</a></div>
+                <div class="border-first-button"><a href="#contact">Melde Dich!</a></div>
               </li>
             </ul>
             <a class='menu-trigger'>
@@ -85,14 +85,17 @@
                     <p>Die Braufreunde Frenkendorf möchten die Bierkultur in Frenkendorf am Leben erhalten. Wir lieben
                       handwerklich gebrautes Bier und suchen nach anderen Bierliebhabern, die sich uns anschliessen und
                       gemeinsam mit uns einen Verein gründen wollen. Gemeinsam wollen wir das Wissen und die
-                      Leidenschaft für das Brauen von Bier teilen und unsere lokalen Brauereien unterstützen.</p>
+                      Leidenschaft für das Brauen von Bier teilen und unsere lokalen Brauereien unterstützen. Aktuell
+                      sind wir noch auf der Suche nach einem pasenden Namen für diese Idee und dabei kannst auch du uns
+                      helfen! Hast du einen tollen Vorschlag für einen neuen Namen? Schicke uns eine Nachricht, wir sind gespannt auf deine
+                      Ideen und freuen uns darauf, gemeinsam mit dir den perfekten Namen für unsere Brauerei zu finden.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/wappen-frenkendorf.jpg" alt="" style="width: 70%;">
+              <div class="center-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/logo-96-temp.png" alt="" style="width: 85%; padding-left: 100px;">
               </div>
             </div>
           </div>
@@ -150,16 +153,57 @@
                   unserer Gemeinschaft von Bierliebhabern und Brauern werden. Mach mit und erlebe die Leidenschaft und
                   den Spaß am Brauen!</p>
                 <p>&nbsp;</p>
-                <p>Schnuppertag - Samstag, 20. Oktober 2025</p>
-                <p>Schnuppertag - Samstag, 20. Oktober 2025</p>
+                <p>Schnuppertag - Datum folgt</p>
                 <p>&nbsp;</p>
                 <p>Ob nur mal reinschauen oder schon kräftig mithelfen, wir suchen immer nach neuen Mitgliedern. Melde
-                  dich unter <a href="mailto:info@braufreunde-frenkendorf.ch">info@braufreunde-frenkendorf.ch</a>.</p>
+                  dich einfach unverbindlich bei uns und wir erzählen dir gerne von unserer Idee und geben dir einen Einblick 
+                  in die Brauerei.</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="about-right-image  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <img src="assets/images/brewing-kettle-01.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="about section" style="padding-top: 30px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="about-left-content">
+                <div class="section-heading">
+                  <h6>KONTAKT</h6>
+                  <h4>Melde dich bei <em>uns</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+                <p>Falls du einen tollen Vorschlag für den Namen unseres Vereins hast, gerne bei uns Mitmachen möchtest oder 
+                  einfach nur mal mit uns reden möchtest, melde dich über das untenstehende Formular.
+                </p>
+                <form id="contact" action="https://api.staticforms.xyz/submit" method="post">
+                  <input type="hidden" name="accessKey" value="0f10dd4b-c207-453e-9bb4-c8ae6ac60801">
+                  <input type="hidden" name="redirectTo" value="https://www.braufreunde-frenkendorf.ch/index.html">
+                  <input type="hidden" name="replyTo" value="@">
+                  <input type="text" name="honeypot" style="display: none;">
+                  <input type="text" name="name" id="name" placeholder="Dein Name" required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Deine Emailadresse"
+                    required="">
+                  <input type="text" name="subject" id="subject" placeholder="Dein Vorschlag">
+                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Deine Nachricht"
+                    required=""></textarea>
+                  <button type="submit" id="form-submit" class="main-button ">Abschicken</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-right-image  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/beer-cheers-01.png" alt="">
               </div>
             </div>
           </div>
